@@ -2,9 +2,9 @@
 from fastapi import FastAPI, HTTPException, status
 from typing import List
 from datetime import datetime
-
 from database import get_connection
 from models import UserInDB, UserCreate, UserUpdate, DataInDB, DataCreate, DataUpdate
+
 app = FastAPI(
     title="My API",
     description="API for managing users and data",
