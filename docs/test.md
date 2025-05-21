@@ -11,7 +11,7 @@ uvicorn main:app --reload
 # GET: список всіх користувачів
 ![image](https://github.com/user-attachments/assets/7715c207-bf26-4dd6-8321-de61eb71a1dc)
 
-# POST: створемо нового користувача
+# POST: створюємо нового користувача
 ![image](https://github.com/user-attachments/assets/9b4b64be-1b0d-4200-861a-dfa8299b5df3)
 
 # GET: знайдемо користувача за ID
