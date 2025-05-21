@@ -1,5 +1,10 @@
 # Тестування працездатності системи 
 
+# Запуск сервера
+```bash
+uvicorn main:app --reload
+```
+
 # Список доступних методів
 ![image](https://github.com/user-attachments/assets/e74c8ff5-56e1-4cc2-a6aa-d9e372e5273f)
 
