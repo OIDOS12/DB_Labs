@@ -253,12 +253,3 @@ async def delete_data(data_id: int):
     if deleted_rows == 0:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Data not found")
     return {"message": f"Data with id {data_id} deleted"}
-
-#   {
-#     "firstname": "Cool",
-#     "password": "5461856166859",
-#     "lastname": "Chell",
-#     "email": "cool@gmail.com",
-#     "login": "Chcoll"
-#   }
-# uvicorn main:app --reload
